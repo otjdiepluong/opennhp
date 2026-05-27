@@ -5,6 +5,36 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0](https://github.com/OpenNHP/opennhp/compare/v1.0.0...v1.1.0) (2026-05-27)
+
+
+### Features
+
+* **demo:** add demo.nhp TLS proxy to AC nginx ([cc0647c](https://github.com/OpenNHP/opennhp/commit/cc0647c9ab689524291d1fa1e80e6d45f07dc060))
+* **demo:** add demo.nhp TLS proxy to AC nginx ([738a996](https://github.com/OpenNHP/opennhp/commit/738a996f061c8df9ee1e9bc62b8fc9781e451d27))
+* **js-agent:** add CBOR token support for loading NHP-Agent parameters ([1fb9793](https://github.com/OpenNHP/opennhp/commit/1fb979382c69d2a289a4fa51b888e069da422cd9))
+* **js-agent:** add CBOR token support for loading NHP-Agent parameters ([cc36a68](https://github.com/OpenNHP/opennhp/commit/cc36a684348b57bf348301bcf126f17d8a8c04e2))
+
+
+### Bug Fixes
+
+* address code review feedback for CBOR token modal ([c245470](https://github.com/OpenNHP/opennhp/commit/c245470358412b8650496aa58536d8ff4a916ade))
+* **core:** remove cgo dependency from errors ([a7aa3e6](https://github.com/OpenNHP/opennhp/commit/a7aa3e63cbec97cefa3f0489ba48fa30ff2efffb))
+* **core:** remove cgo dependency from errors ([6558da6](https://github.com/OpenNHP/opennhp/commit/6558da644bfe391ab9ac88c6375e15827c4b6f6d))
+* **demo:** address code review feedback for demo.nhp TLS ([c2f23ac](https://github.com/OpenNHP/opennhp/commit/c2f23acde90f8d4be9b0b1778a410c6463cc6e66))
+* **demo:** address follow-up PR review issues for demo.nhp TLS ([3a779a4](https://github.com/OpenNHP/opennhp/commit/3a779a42b33030b6e976fff5c4c8131574010556))
+* **demo:** address follow-up PR review issues in demo.nhp renewal workflow ([6be6d4d](https://github.com/OpenNHP/opennhp/commit/6be6d4df38757c8a616b578c5803656cfb7e5c3e))
+* **demo:** address follow-up review issues in TLS automation ([ae4b87f](https://github.com/OpenNHP/opennhp/commit/ae4b87f70782d02aebe855e035b7e7830febae51))
+* **demo:** address PR review issues for demo.nhp TLS proxy ([d3cc4b5](https://github.com/OpenNHP/opennhp/commit/d3cc4b518e1bb355334927bb42f1c7d17c88999e))
+* **demo:** address PR review issues for demo.nhp TLS proxy ([b599278](https://github.com/OpenNHP/opennhp/commit/b5992780cdf73dbcd88ea6892662a64cb44bc33b))
+* **demo:** address PR review issues for optional demo.nhp TLS deployment ([5747bee](https://github.com/OpenNHP/opennhp/commit/5747bee0dfc914def84ea1b0f1b74c71a5ce35da))
+* **demo:** address review follow-ups for demo.nhp TLS ([c8f6dbc](https://github.com/OpenNHP/opennhp/commit/c8f6dbc9a1432d99050b0159777c1708e59b774d))
+* **demo:** correct step ordering, full cert chain, and add -target comment ([f85ddd8](https://github.com/OpenNHP/opennhp/commit/f85ddd88d26c66133bbae8377e299c298273e1f6))
+* **js-agent:** address code review feedback for CBOR token modal ([08598cc](https://github.com/OpenNHP/opennhp/commit/08598cc5b5915ba97137854003c44dcc225145ae))
+* **noise:** never carry zeroed intermediate chain key between packets ([e7886f8](https://github.com/OpenNHP/opennhp/commit/e7886f8ec675f7a06d3151c8da24900cdf5ced9f))
+* **terraform:** mark derived-from-sensitive outputs as nonsensitive ([73dbc24](https://github.com/OpenNHP/opennhp/commit/73dbc24445f69484edd5b347a22cdd596c652564))
+* **terraform:** mark derived-from-sensitive outputs as nonsensitive ([9501ba2](https://github.com/OpenNHP/opennhp/commit/9501ba234b182ba5f945c29b0b8bd33aaa894a91))
+
 ## [1.0.0](https://github.com/OpenNHP/opennhp/compare/v0.7.3...v1.0.0) (2026-05-15)
 
 
